@@ -1,0 +1,141 @@
+body{
+	background-image: url("StoreFront.jpg");
+	background-size: cover;
+	max-width: 100%;
+	font-size: 25px;
+  margin: auto 0;
+}
+
+.Main-nav {
+  background-image: url("steak-dinner.jpg");
+  max-width: 100%;
+  margin: 0px, 0px, 0px, 0px;
+  width: 100%;
+  
+}
+
+.Contact-us {
+  position: relative;
+  right: -800px;
+}
+
+h1 {
+    color: red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 160px;
+  text-align: center;
+  font-style: italic;
+  border: solid;
+  border-top: 5px;
+  border-color: black;
+  text-shadow: 2px 2px black;
+  border-radius: 5px;
+  margin: 0px;
+  background-image: url("steak-dinner.jpg");
+  box-shadow: 5px 10px;
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+  padding: 15px;
+  height: auto;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+nav ul li:hover {
+  background-color: red;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1;
+  min-width: 160px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+/*layout */
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-image: url("menu-closeup.jpg");
+      background-size: cover;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .specials-list {
+      list-style: none;
+      padding: 0;
+      color: red;
+    }
+
+    .specials-list li {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+
+    }
+
+    .specials-list h3 {
+      margin-top: 0;
+      color: red;
+      text-shadow: 2px 2px black;
+    }
+
+    .specials-list p {
+      margin: 0;
+      color: black;
+    }
+    .Menu{
+      color: red;
+    }

@@ -1,0 +1,236 @@
+body{
+	background-image: url("StoreFront.jpg");
+	background-size: cover;
+	max-width: 100%;
+	font-size: 25px;
+  margin: auto 0;
+}
+
+.Main-nav {
+  background-image: url("steak-dinner.jpg");
+  max-width: 100%;
+  margin: 0px, 0px, 0px, 0px;
+  width: 100%;
+  
+}
+
+.Contact-us {
+  position: relative;
+  right: -800px;
+}
+
+h1 {
+    color: red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 160px;
+  text-align: center;
+  font-style: italic;
+  border: solid;
+  border-top: 5px;
+  border-color: black;
+  text-shadow: 2px 2px black;
+  border-radius: 5px;
+  margin: 0px;
+  background-image: url("steak-dinner.jpg");
+  box-shadow: 5px 10px;
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+  padding: 15px;
+  height: auto;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+nav ul li:hover {
+  background-color: red;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1;
+  min-width: 160px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+/*Menu grid and images */
+
+.page_title {
+    padding: 30px 0px;
+}
+.page_title h1 {
+    color: red;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.page_title h1::before {
+    background: red;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page_title h1::after {
+    position: absolute;
+    content: '';
+    background: #fbc531;
+    width: 30px;
+    height: 2px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Menu starts*/
+.menu_tab {
+    margin: 0 auto;
+    justify-content: center;
+}
+.nav-item {
+    display: inline-block;
+    text-align: center;
+}
+.nav-tabs .nav-link{
+    transition: .3s;
+}
+.nav-tabs .nav-link.active {
+    background: red;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #c0392b;
+    text-transform: capitalize;
+}
+.nav-link {
+    color: #000;
+}
+.nav-tabs .nav-link:hover {
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+}
+.single_menu {
+    position: relative;
+    margin-bottom: 75px;
+    transition: .3s;
+}
+.single_menu:hover img{
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+
+}
+.single_menu img {
+    width: 33%;
+    position: absolute;
+    height: 140px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    transition: .3s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.menu_content {
+    padding-left: 200px;
+}
+.menu_content h4 {
+    font-size: 25px;
+    font-weight: 300;
+    border-bottom: 1px dashed #c0392b;
+    line-height: 2;
+    text-transform: capitalize;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+.menu_content h4 span {
+    font-size: 25px;
+    font-weight: 800;
+    float: right;
+    font-style: italic;
+    color: red;
+}
+.menu_content p {
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+}
+.menu_btn.btn.btn-danger {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    background-color: red;
+}
+/*Menu ends*/
+.menu_btn.btn.btn-danger {
+  margin: 0 auto;
+  display: block;
+  width: 140px;
+}
+.btn.btn-danger {
+  background: #c0392b;
+  border: 1px solid #c0392b;
+  transition: .3s;
+  position: relative;
+  z-index: 1;
+  text-transform: capitalize;
+  font-weight: 700;
+  overflow: hidden;
+  padding: 15px 25px;
+}
+.btn.btn-danger::before {
+  position: absolute;
+  content: '';
+  background: #e74c3c;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  top: 100%;
+  transition: .3s;
+  z-index: -1;
+}
+.btn.btn-danger:hover:before{
+    top: 0;
+    left: 0;
+}

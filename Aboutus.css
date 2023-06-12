@@ -1,0 +1,130 @@
+body{
+  background-image: url("StoreFront.jpg");
+  background-size: cover;
+  max-width: 100%;
+  font-size: 25px;
+  margin: auto 0;
+}
+
+.Main-nav {
+  background-image: url("steak-dinner.jpg");
+  max-width: 100%;
+  margin: 0px, 0px, 0px, 0px;
+  width: 100%;
+  
+}
+
+.Contact-us {
+  position: relative;
+  right: -800px;
+}
+
+h1 {
+    color: red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 160px;
+  text-align: center;
+  font-style: italic;
+  border: solid;
+  border-top: 5px;
+  border-color: black;
+  text-shadow: 2px 2px black;
+  border-radius: 5px;
+  margin: 0px;
+  background-image: url("steak-dinner.jpg");
+  box-shadow: 5px 10px;
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+  padding: 15px;
+  height: auto;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+nav ul li:hover {
+  background-color: red;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1;
+  min-width: 160px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.ruckerimg{
+  position: relative;
+  left: 340px;
+  top: 35px;
+  border: solid;
+  border-color: red;
+}
+
+.info{
+  color: black;
+  background-color: tan;
+  background-size: cover;
+  border-radius: 10px;
+
+  border: groove;
+  border-color: red;
+  border-spacing: 2px;
+  padding-top: -0%;
+  padding-bottom: 0%;
+  position: relative;
+  top: 75px;
+
+
+}
+
+.overlay-button{
+  position: relative;
+  top: -150px;
+  left: 250px;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+  border-radius: 25px;
+}
+
+.overlay-button:hover{
+  color: red;
+
+}
